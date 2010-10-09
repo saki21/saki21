@@ -1,0 +1,478 @@
+http://ocsp.verisign.com/
+
+POST / HTTP/1.1
+Host: ocsp.verisign.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; ja-JP; rv:1.9.2) Gecko/20100206 Palemoon/3.6.0.5 GTB7.0 ( .NET CLR 3.5.30729; .NET4.0E)
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: ja-JP,ja;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 115
+Connection: keep-alive
+Content-Length: 115
+Content-Type: application/ocsp-request
+0q0o0M0K0I0	+
+HTTP/1.0 200 Ok
+Last-Modified: Fri, 10 Sep 2010 01:01:43 GMT
+Expires: Fri, 17 Sep 2010 01:01:43 GMT
+Content-Type: application/ocsp-response
+Content-Transfer-Encoding: binary
+Content-Length: 1494
+Cache-Control: max-age=450544, public, no-transform, must-revalidate
+Date: Sat, 11 Sep 2010 19:52:39 GMT
+Connection: close
+----------------------------------------------------------
+https://www.dmm.com/my/
+
+POST /my/ HTTP/1.1
+Host: www.dmm.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; ja-JP; rv:1.9.2) Gecko/20100206 Palemoon/3.6.0.5 GTB7.0 ( .NET CLR 3.5.30729; .NET4.0E)
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: ja-JP,ja;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 115
+Connection: keep-alive
+Referer: http://localhost/sf/dtk/aa.html
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 165
+login_id=oeq7ff66&save_login_id=1&password=saki1413&save_password=1&x=168&y=20&path=DRVESVwZTlNNBkVRXFhIUwwIGFVfVEs_&path=DRVESVwZTlNNBkVRXFhIUwwIGFVfVEs_&act=commit
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 11 Sep 2010 19:52:39 GMT
+Server: Apache
+Set-Cookie: check_open_login=1; path=/; domain=.dmm.com
+Set-Cookie: declared_age_check=deleted; expires=Fri, 11 Sep 2009 19:52:38 GMT; path=/; domain=.dmm.com
+Set-Cookie: INT_SESID=Ag4EXBkVDwReRjZ7IhoIFV9WVgMTLX8ATmtbCyJ3dncidXZQKS9BDyUlInM1GggVX1FYG2I3dTZjEA5aWQcFClcGA1JVUwwMF15TCEQaCCheF1gAC0F9KmNtZnYwf3MQWFUKXlgdRg1VVVkQAk1DCgwHA01YDFpGDEEPA1kUFQkQDgNcQDN8c0ZfEAhXAQlEC1wjeHAmdSVxBH56Fw52cyJ1Y0RZFQ8OXkYOVwtaVhQ6DQYbChAOVQUIF3dSBgdWEQZdEFcEQxVfF1kHXBpXBDoNBhsKEA5VDRAGEVhFDQpZFlwHERJbVgkBQQkVAgdcR9WUg9tBDxcNCw8RBV9FQRdaUQsHRA5EXlBZEKHW%2BrFHXxEDAFsORkRTWEMPU2hXDVVSCgc5U1sFA0EJBAICXRZeUwwLQVUDUm1URxdTREYCQFkJDEQOVV5UWE8b; path=/; domain=.dmm.com
+Set-Cookie: licenseUID=n8AAAEAAF6KIt8AAAAS; expires=Sun, 11 Sep 2011 19:52:39 GMT; path=/; domain=.dmm.com
+Set-Cookie: check_done_login=1; expires=Sun, 11 Sep 2011 19:52:39 GMT; path=/; domain=.dmm.com
+Set-Cookie: login_id2=deleted; expires=Fri, 11 Sep 2009 19:52:38 GMT; path=/; domain=.dmm.com
+Set-Cookie: login_id2=FlsIA0RZBEMPA1cOBRRd; expires=Sun, 11 Sep 2011 19:52:39 GMT; path=/; domain=.dmm.com; secure
+Set-Cookie: password=FlsIA0RFAFlRVAUJABRd; expires=Sun, 11 Sep 2011 19:52:39 GMT; path=/; domain=.dmm.com; secure
+Set-Cookie: DMMAFUID_ONETIME=deleted; expires=Fri, 11 Sep 2009 19:52:38 GMT; path=/; domain=.dmm.com
+Location: https://www.dmm.com/my/-/redirect/=/rurl=DRVESVwZTlNNBkVRXFhIUwwIGFVfVEs_
+Vary: Accept-Encoding,User-Agent
+Content-Encoding: gzip
+Content-Length: 20
+Connection: close
+Content-Type: text/html
+----------------------------------------------------------
+https://www.dmm.com/my/-/redirect/=/rurl=DRVESVwZTlNNBkVRXFhIUwwIGFVfVEs_
+
+GET /my/-/redirect/=/rurl=DRVESVwZTlNNBkVRXFhIUwwIGFVfVEs_ HTTP/1.1
+Host: www.dmm.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; ja-JP; rv:1.9.2) Gecko/20100206 Palemoon/3.6.0.5 GTB7.0 ( .NET CLR 3.5.30729; .NET4.0E)
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: ja-JP,ja;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 115
+Connection: keep-alive
+Referer: http://localhost/sf/dtk/aa.html
+Cookie: check_open_login=1; INT_SESID=Ag4EXBkVDwReRjZ7IhoIFV9WVgMTLX8ATmtbCyJ3dncidXZQKS9BDyUlInM1GggVX1FYG2I3dTZjEA5aWQcFClcGA1JVUwwMF15TCEQaCCheF1gAC0F9KmNtZnYwf3MQWFUKXlgdRg1VVVkQAk1DCgwHA01YDFpGDEEPA1kUFQkQDgNcQDN8c0ZfEAhXAQlEC1wjeHAmdSVxBH56Fw52cyJ1Y0RZFQ8OXkYOVwtaVhQ6DQYbChAOVQUIF3dSBgdWEQZdEFcEQxVfF1kHXBpXBDoNBhsKEA5VDRAGEVhFDQpZFlwHERJbVgkBQQkVAgdcR9WUg9tBDxcNCw8RBV9FQRdaUQsHRA5EXlBZEKHW%2BrFHXxEDAFsORkRTWEMPU2hXDVVSCgc5U1sFA0EJBAICXRZeUwwLQVUDUm1URxdTREYCQFkJDEQOVV5UWE8b; licenseUID=n8AAAEAAF6KIt8AAAAS; check_done_login=1; login_id2=FlsIA0RZBEMPA1cOBRRd; password=FlsIA0RFAFlRVAUJABRd
+
+HTTP/1.1 200 OK
+Date: Sat, 11 Sep 2010 19:52:40 GMT
+Server: Apache
+Vary: Accept-Encoding,User-Agent
+Content-Encoding: gzip
+Content-Length: 329
+Connection: close
+Content-Type: text/html
+----------------------------------------------------------
+https://www.dmm.com/favicon.ico
+
+GET /favicon.ico HTTP/1.1
+Host: www.dmm.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; ja-JP; rv:1.9.2) Gecko/20100206 Palemoon/3.6.0.5 GTB7.0 ( .NET CLR 3.5.30729; .NET4.0E)
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: ja-JP,ja;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 115
+Connection: keep-alive
+Cookie: check_open_login=1; INT_SESID=Ag4EXBkVDwReRjZ7IhoIFV9WVgMTLX8ATmtbCyJ3dncidXZQKS9BDyUlInM1GggVX1FYG2I3dTZjEA5aWQcFClcGA1JVUwwMF15TCEQaCCheF1gAC0F9KmNtZnYwf3MQWFUKXlgdRg1VVVkQAk1DCgwHA01YDFpGDEEPA1kUFQkQDgNcQDN8c0ZfEAhXAQlEC1wjeHAmdSVxBH56Fw52cyJ1Y0RZFQ8OXkYOVwtaVhQ6DQYbChAOVQUIF3dSBgdWEQZdEFcEQxVfF1kHXBpXBDoNBhsKEA5VDRAGEVhFDQpZFlwHERJbVgkBQQkVAgdcR9WUg9tBDxcNCw8RBV9FQRdaUQsHRA5EXlBZEKHW%2BrFHXxEDAFsORkRTWEMPU2hXDVVSCgc5U1sFA0EJBAICXRZeUwwLQVUDUm1URxdTREYCQFkJDEQOVV5UWE8b; licenseUID=n8AAAEAAF6KIt8AAAAS; check_done_login=1; login_id2=FlsIA0RZBEMPA1cOBRRd; password=FlsIA0RFAFlRVAUJABRd
+
+HTTP/1.1 200 OK
+Date: Sat, 11 Sep 2010 19:52:40 GMT
+Server: Apache
+Last-Modified: Thu, 01 May 2008 02:04:34 GMT
+Etag: "2d5032e-2cee-44c21afce3080"
+Accept-Ranges: bytes
+Vary: Accept-Encoding,User-Agent
+Content-Encoding: gzip
+Content-Length: 599
+Connection: close
+Content-Type: image/x-icon
+----------------------------------------------------------
+http://toolbarqueries.google.co.jp/search?features=Rank&sourceid=navclient-ff&client=navclient-auto-ff&googleip=O;74.125.71.147;1089&swwk=376&ch=8e3b1afea&q=info:https%3A%2F%2Fwww.dmm.com%2F
+
+GET /search?features=Rank&sourceid=navclient-ff&client=navclient-auto-ff&googleip=O;74.125.71.147;1089&swwk=376&ch=8e3b1afea&q=info:https%3A%2F%2Fwww.dmm.com%2F HTTP/1.1
+Host: toolbarqueries.google.co.jp
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; ja-JP; rv:1.9.2) Gecko/20100206 Palemoon/3.6.0.5 GTB7.0 ( .NET CLR 3.5.30729; .NET4.0E) GoogleToolbarFF 7.0.20100326 GTBA
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: ja-JP,ja;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 115
+Connection: keep-alive
+Cookie: PREF=ID=8a621937606837d7:U=64b07bb9dec885b4:TM=1272224004:LM=1284005839:DV=8WDcP-N8LasL:S=nUaausKWEKb-QYiK; NID=34=mZtwDpfMWJRlbXDFEBPkLnicpDOjagrXcc5waoB7m0onH_BSaUA2soJXvPcojtxUrKB--LIfCOkrhhvnvYg_v9BOxRZcKZgjuRly3JqZcTQmVR88rXRWd3O1DvXwoebF; SID=DQAAAI4AAADOPVT7e5ddG1MrdSiMaPzOFpwAYIRRXnUZXBCTogY90R45iZF6y5CYmuHZYJc8sMIjwOavmP_P1lmh8bZOu1S34SiNv5eIrIz4eEMlPFW-2Wpj5AwuF0rvfYeE5t9pHqwVsnQbJ-G3kDwH8XOPx9e8uIolDIirhRBqu2Wb8TSQD4n3RvG1YSaSZwhn9Vieg7E; HSID=AAIyTcJqheA_flsMV
+
+HTTP/1.1 200 OK
+Date: Sat, 11 Sep 2010 19:52:41 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Content-Type: text/html; charset=Shift_JIS
+Server: gws
+Content-Length: 0
+X-XSS-Protection: 1; mode=block
+----------------------------------------------------------
+http://toolbarqueries.google.co.jp/search?features=Rank&sourceid=navclient-ff&client=navclient-auto-ff&iqrn=EqDC&querytime=0H&orig=0BGsB&ch=8e3b1afea&q=info:https%3A%2F%2Fwww.dmm.com%2F
+
+GET /search?features=Rank&sourceid=navclient-ff&client=navclient-auto-ff&iqrn=EqDC&querytime=0H&orig=0BGsB&ch=8e3b1afea&q=info:https%3A%2F%2Fwww.dmm.com%2F HTTP/1.1
+Host: toolbarqueries.google.co.jp
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; ja-JP; rv:1.9.2) Gecko/20100206 Palemoon/3.6.0.5 GTB7.0 ( .NET CLR 3.5.30729; .NET4.0E) GoogleToolbarFF 7.0.20100326 GTBA
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: ja-JP,ja;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 115
+Connection: keep-alive
+Cookie: PREF=ID=8a621937606837d7:U=64b07bb9dec885b4:TM=1272224004:LM=1284005839:DV=8WDcP-N8LasL:S=nUaausKWEKb-QYiK; NID=34=mZtwDpfMWJRlbXDFEBPkLnicpDOjagrXcc5waoB7m0onH_BSaUA2soJXvPcojtxUrKB--LIfCOkrhhvnvYg_v9BOxRZcKZgjuRly3JqZcTQmVR88rXRWd3O1DvXwoebF; SID=DQAAAI4AAADOPVT7e5ddG1MrdSiMaPzOFpwAYIRRXnUZXBCTogY90R45iZF6y5CYmuHZYJc8sMIjwOavmP_P1lmh8bZOu1S34SiNv5eIrIz4eEMlPFW-2Wpj5AwuF0rvfYeE5t9pHqwVsnQbJ-G3kDwH8XOPx9e8uIolDIirhRBqu2Wb8TSQD4n3RvG1YSaSZwhn9Vieg7E; HSID=AAIyTcJqheA_flsMV
+
+HTTP/1.1 200 OK
+Date: Sat, 11 Sep 2010 19:52:41 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Content-Type: text/html; charset=Shift_JIS
+Server: gws
+Content-Length: 0
+X-XSS-Protection: 1; mode=block
+----------------------------------------------------------
+http://toolbarqueries.google.co.jp/search?features=Rank&sourceid=navclient-ff&client=navclient-auto-ff&iqrn=YwG&querytime=uB&orig=0weV&ch=8e3b1afea&q=info:https%3A%2F%2Fwww.dmm.com%2F
+
+GET /search?features=Rank&sourceid=navclient-ff&client=navclient-auto-ff&iqrn=YwG&querytime=uB&orig=0weV&ch=8e3b1afea&q=info:https%3A%2F%2Fwww.dmm.com%2F HTTP/1.1
+Host: toolbarqueries.google.co.jp
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; ja-JP; rv:1.9.2) Gecko/20100206 Palemoon/3.6.0.5 GTB7.0 ( .NET CLR 3.5.30729; .NET4.0E) GoogleToolbarFF 7.0.20100326 GTBA
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: ja-JP,ja;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 115
+Connection: keep-alive
+Cookie: PREF=ID=8a621937606837d7:U=64b07bb9dec885b4:TM=1272224004:LM=1284005839:DV=8WDcP-N8LasL:S=nUaausKWEKb-QYiK; NID=34=mZtwDpfMWJRlbXDFEBPkLnicpDOjagrXcc5waoB7m0onH_BSaUA2soJXvPcojtxUrKB--LIfCOkrhhvnvYg_v9BOxRZcKZgjuRly3JqZcTQmVR88rXRWd3O1DvXwoebF; SID=DQAAAI4AAADOPVT7e5ddG1MrdSiMaPzOFpwAYIRRXnUZXBCTogY90R45iZF6y5CYmuHZYJc8sMIjwOavmP_P1lmh8bZOu1S34SiNv5eIrIz4eEMlPFW-2Wpj5AwuF0rvfYeE5t9pHqwVsnQbJ-G3kDwH8XOPx9e8uIolDIirhRBqu2Wb8TSQD4n3RvG1YSaSZwhn9Vieg7E; HSID=AAIyTcJqheA_flsMV
+
+HTTP/1.1 200 OK
+Date: Sat, 11 Sep 2010 19:52:41 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Content-Type: text/html; charset=Shift_JIS
+Server: gws
+Content-Length: 0
+X-XSS-Protection: 1; mode=block
+----------------------------------------------------------
+http://auction.dmm.com/
+
+GET / HTTP/1.1
+Host: auction.dmm.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; ja-JP; rv:1.9.2) Gecko/20100206 Palemoon/3.6.0.5 GTB7.0 ( .NET CLR 3.5.30729; .NET4.0E)
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: ja-JP,ja;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 115
+Connection: keep-alive
+Cookie: PHPSESSID=thfjhdhg7dh67u55o7cqdp76t2; check_open_login=1; INT_SESID=Ag4EXBkVDwReRjZ7IhoIFV9WVgMTLX8ATmtbCyJ3dncidXZQKS9BDyUlInM1GggVX1FYG2I3dTZjEA5aWQcFClcGA1JVUwwMF15TCEQaCCheF1gAC0F9KmNtZnYwf3MQWFUKXlgdRg1VVVkQAk1DCgwHA01YDFpGDEEPA1kUFQkQDgNcQDN8c0ZfEAhXAQlEC1wjeHAmdSVxBH56Fw52cyJ1Y0RZFQ8OXkYOVwtaVhQ6DQYbChAOVQUIF3dSBgdWEQZdEFcEQxVfF1kHXBpXBDoNBhsKEA5VDRAGEVhFDQpZFlwHERJbVgkBQQkVAgdcR9WUg9tBDxcNCw8RBV9FQRdaUQsHRA5EXlBZEKHW%2BrFHXxEDAFsORkRTWEMPU2hXDVVSCgc5U1sFA0EJBAICXRZeUwwLQVUDUm1URxdTREYCQFkJDEQOVV5UWE8b; licenseUID=n8AAAEAAF6KIt8AAAAS; check_done_login=1
+
+HTTP/1.1 200 OK
+Date: Sat, 11 Sep 2010 19:52:40 GMT
+Server: Apache/2.2.15 (Unix) PHP/5.3.2
+X-Powered-By: PHP/5.3.2
+Set-Cookie: a_time=deleted; expires=Fri, 11-Sep-2009 19:52:39 GMT; path=/; domain=auction.dmm.com
+Set-Cookie: ystjd=%2Findex.php%2C1; path=/; domain=auction.dmm.com
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Vary: Accept-Encoding,User-Agent
+Content-Encoding: gzip
+Keep-Alive: timeout=1, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html
+----------------------------------------------------------
+http://pics.dmm.com/auction/gpauction00485/gpauction00485pt.jpg
+
+GET /auction/gpauction00485/gpauction00485pt.jpg HTTP/1.1
+Host: pics.dmm.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; ja-JP; rv:1.9.2) Gecko/20100206 Palemoon/3.6.0.5 GTB7.0 ( .NET CLR 3.5.30729; .NET4.0E)
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: ja-JP,ja;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 115
+Connection: keep-alive
+Referer: http://auction.dmm.com/
+Cookie: check_open_login=1; INT_SESID=Ag4EXBkVDwReRjZ7IhoIFV9WVgMTLX8ATmtbCyJ3dncidXZQKS9BDyUlInM1GggVX1FYG2I3dTZjEA5aWQcFClcGA1JVUwwMF15TCEQaCCheF1gAC0F9KmNtZnYwf3MQWFUKXlgdRg1VVVkQAk1DCgwHA01YDFpGDEEPA1kUFQkQDgNcQDN8c0ZfEAhXAQlEC1wjeHAmdSVxBH56Fw52cyJ1Y0RZFQ8OXkYOVwtaVhQ6DQYbChAOVQUIF3dSBgdWEQZdEFcEQxVfF1kHXBpXBDoNBhsKEA5VDRAGEVhFDQpZFlwHERJbVgkBQQkVAgdcR9WUg9tBDxcNCw8RBV9FQRdaUQsHRA5EXlBZEKHW%2BrFHXxEDAFsORkRTWEMPU2hXDVVSCgc5U1sFA0EJBAICXRZeUwwLQVUDUm1URxdTREYCQFkJDEQOVV5UWE8b; licenseUID=n8AAAEAAF6KIt8AAAAS; check_done_login=1
+
+HTTP/1.1 200 OK
+Server: Apache/2.2.6 (Unix) PHP/5.2.5
+Last-Modified: Sun, 15 Aug 2010 08:11:45 GMT
+Accept-Ranges: bytes
+Content-Type: image/jpeg
+Etag: "10428da03-975-48dd84455ea0d"
+Content-Length: 2421
+Date: Sat, 11 Sep 2010 19:52:41 GMT
+Connection: keep-alive
+----------------------------------------------------------
+http://pics.dmm.com/auction/gpauction00963/gpauction00963pt.jpg
+
+GET /auction/gpauction00963/gpauction00963pt.jpg HTTP/1.1
+Host: pics.dmm.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; ja-JP; rv:1.9.2) Gecko/20100206 Palemoon/3.6.0.5 GTB7.0 ( .NET CLR 3.5.30729; .NET4.0E)
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: ja-JP,ja;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 115
+Connection: keep-alive
+Referer: http://auction.dmm.com/
+Cookie: check_open_login=1; INT_SESID=Ag4EXBkVDwReRjZ7IhoIFV9WVgMTLX8ATmtbCyJ3dncidXZQKS9BDyUlInM1GggVX1FYG2I3dTZjEA5aWQcFClcGA1JVUwwMF15TCEQaCCheF1gAC0F9KmNtZnYwf3MQWFUKXlgdRg1VVVkQAk1DCgwHA01YDFpGDEEPA1kUFQkQDgNcQDN8c0ZfEAhXAQlEC1wjeHAmdSVxBH56Fw52cyJ1Y0RZFQ8OXkYOVwtaVhQ6DQYbChAOVQUIF3dSBgdWEQZdEFcEQxVfF1kHXBpXBDoNBhsKEA5VDRAGEVhFDQpZFlwHERJbVgkBQQkVAgdcR9WUg9tBDxcNCw8RBV9FQRdaUQsHRA5EXlBZEKHW%2BrFHXxEDAFsORkRTWEMPU2hXDVVSCgc5U1sFA0EJBAICXRZeUwwLQVUDUm1URxdTREYCQFkJDEQOVV5UWE8b; licenseUID=n8AAAEAAF6KIt8AAAAS; check_done_login=1
+
+HTTP/1.1 200 OK
+Server: Apache/2.2.6 (Unix) PHP/5.2.5
+Last-Modified: Fri, 27 Aug 2010 02:22:43 GMT
+Etag: "104089f06-7d0-48ec4ca2f9030"
+Accept-Ranges: bytes
+Content-Length: 2000
+Content-Type: image/jpeg
+Date: Sat, 11 Sep 2010 19:52:41 GMT
+Connection: keep-alive
+----------------------------------------------------------
+http://pics.dmm.com/auction/gpauction00893/gpauction00893pt.jpg
+
+GET /auction/gpauction00893/gpauction00893pt.jpg HTTP/1.1
+Host: pics.dmm.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; ja-JP; rv:1.9.2) Gecko/20100206 Palemoon/3.6.0.5 GTB7.0 ( .NET CLR 3.5.30729; .NET4.0E)
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: ja-JP,ja;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 115
+Connection: keep-alive
+Referer: http://auction.dmm.com/
+Cookie: check_open_login=1; INT_SESID=Ag4EXBkVDwReRjZ7IhoIFV9WVgMTLX8ATmtbCyJ3dncidXZQKS9BDyUlInM1GggVX1FYG2I3dTZjEA5aWQcFClcGA1JVUwwMF15TCEQaCCheF1gAC0F9KmNtZnYwf3MQWFUKXlgdRg1VVVkQAk1DCgwHA01YDFpGDEEPA1kUFQkQDgNcQDN8c0ZfEAhXAQlEC1wjeHAmdSVxBH56Fw52cyJ1Y0RZFQ8OXkYOVwtaVhQ6DQYbChAOVQUIF3dSBgdWEQZdEFcEQxVfF1kHXBpXBDoNBhsKEA5VDRAGEVhFDQpZFlwHERJbVgkBQQkVAgdcR9WUg9tBDxcNCw8RBV9FQRdaUQsHRA5EXlBZEKHW%2BrFHXxEDAFsORkRTWEMPU2hXDVVSCgc5U1sFA0EJBAICXRZeUwwLQVUDUm1URxdTREYCQFkJDEQOVV5UWE8b; licenseUID=n8AAAEAAF6KIt8AAAAS; check_done_login=1
+
+HTTP/1.1 200 OK
+Server: Apache/2.2.6 (Unix) PHP/5.2.5
+Last-Modified: Wed, 08 Sep 2010 09:28:12 GMT
+Etag: W/"1042e707d-197d-48fbc63aa8c8c"
+Accept-Ranges: bytes
+Content-Length: 6525
+Content-Type: image/jpeg
+Date: Sat, 11 Sep 2010 19:52:41 GMT
+Connection: keep-alive
+----------------------------------------------------------
+http://pics.dmm.com/auction/gpauction00866/gpauction00866pt.jpg
+
+GET /auction/gpauction00866/gpauction00866pt.jpg HTTP/1.1
+Host: pics.dmm.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; ja-JP; rv:1.9.2) Gecko/20100206 Palemoon/3.6.0.5 GTB7.0 ( .NET CLR 3.5.30729; .NET4.0E)
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: ja-JP,ja;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 115
+Connection: keep-alive
+Referer: http://auction.dmm.com/
+Cookie: check_open_login=1; INT_SESID=Ag4EXBkVDwReRjZ7IhoIFV9WVgMTLX8ATmtbCyJ3dncidXZQKS9BDyUlInM1GggVX1FYG2I3dTZjEA5aWQcFClcGA1JVUwwMF15TCEQaCCheF1gAC0F9KmNtZnYwf3MQWFUKXlgdRg1VVVkQAk1DCgwHA01YDFpGDEEPA1kUFQkQDgNcQDN8c0ZfEAhXAQlEC1wjeHAmdSVxBH56Fw52cyJ1Y0RZFQ8OXkYOVwtaVhQ6DQYbChAOVQUIF3dSBgdWEQZdEFcEQxVfF1kHXBpXBDoNBhsKEA5VDRAGEVhFDQpZFlwHERJbVgkBQQkVAgdcR9WUg9tBDxcNCw8RBV9FQRdaUQsHRA5EXlBZEKHW%2BrFHXxEDAFsORkRTWEMPU2hXDVVSCgc5U1sFA0EJBAICXRZeUwwLQVUDUm1URxdTREYCQFkJDEQOVV5UWE8b; licenseUID=n8AAAEAAF6KIt8AAAAS; check_done_login=1
+
+HTTP/1.1 200 OK
+Server: Apache/2.2.6 (Unix) PHP/5.2.5
+Last-Modified: Wed, 08 Sep 2010 06:05:30 GMT
+Etag: W/"103c3d824-aa1-48fb98f78bc44"
+Accept-Ranges: bytes
+Content-Length: 2721
+Content-Type: image/jpeg
+Date: Sat, 11 Sep 2010 19:52:41 GMT
+Connection: keep-alive
+----------------------------------------------------------
+http://auction.dmm.com/getUserStats.php?userId=D100dr2mv5bv
+
+GET /getUserStats.php?userId=D100dr2mv5bv HTTP/1.1
+Host: auction.dmm.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; ja-JP; rv:1.9.2) Gecko/20100206 Palemoon/3.6.0.5 GTB7.0 ( .NET CLR 3.5.30729; .NET4.0E)
+Accept: application/json, text/javascript, */*
+Accept-Language: ja-JP,ja;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 115
+Connection: keep-alive
+X-Requested-With: XMLHttpRequest
+Referer: http://auction.dmm.com/
+Cookie: PHPSESSID=thfjhdhg7dh67u55o7cqdp76t2; check_open_login=1; INT_SESID=Ag4EXBkVDwReRjZ7IhoIFV9WVgMTLX8ATmtbCyJ3dncidXZQKS9BDyUlInM1GggVX1FYG2I3dTZjEA5aWQcFClcGA1JVUwwMF15TCEQaCCheF1gAC0F9KmNtZnYwf3MQWFUKXlgdRg1VVVkQAk1DCgwHA01YDFpGDEEPA1kUFQkQDgNcQDN8c0ZfEAhXAQlEC1wjeHAmdSVxBH56Fw52cyJ1Y0RZFQ8OXkYOVwtaVhQ6DQYbChAOVQUIF3dSBgdWEQZdEFcEQxVfF1kHXBpXBDoNBhsKEA5VDRAGEVhFDQpZFlwHERJbVgkBQQkVAgdcR9WUg9tBDxcNCw8RBV9FQRdaUQsHRA5EXlBZEKHW%2BrFHXxEDAFsORkRTWEMPU2hXDVVSCgc5U1sFA0EJBAICXRZeUwwLQVUDUm1URxdTREYCQFkJDEQOVV5UWE8b; licenseUID=n8AAAEAAF6KIt8AAAAS; check_done_login=1; ystjd=%2Findex.php%2C1
+
+HTTP/1.1 200 OK
+Date: Sat, 11 Sep 2010 19:52:41 GMT
+Server: Apache/2.2.15 (Unix) PHP/5.3.2
+X-Powered-By: PHP/5.3.2
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Vary: Accept-Encoding,User-Agent
+Content-Encoding: gzip
+Content-Length: 85
+Keep-Alive: timeout=1, max=99
+Connection: Keep-Alive
+Content-Type: text/html; charset=euc-jp
+----------------------------------------------------------
+http://toolbarqueries.google.co.jp/search?features=Rank:SW&sourceid=navclient-ff&client=navclient-auto-ff&sw=ui,df,sq&googleip=O;74.125.71.103;475&iqrn=TtqB&querytime=CJ&orig=0Fh6g&swwk=376&ch=81b8b56b0&q=info:http%3A%2F%2Fauction.dmm.com%2F
+
+GET /search?features=Rank:SW&sourceid=navclient-ff&client=navclient-auto-ff&sw=ui,df,sq&googleip=O;74.125.71.103;475&iqrn=TtqB&querytime=CJ&orig=0Fh6g&swwk=376&ch=81b8b56b0&q=info:http%3A%2F%2Fauction.dmm.com%2F HTTP/1.1
+Host: toolbarqueries.google.co.jp
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; ja-JP; rv:1.9.2) Gecko/20100206 Palemoon/3.6.0.5 GTB7.0 ( .NET CLR 3.5.30729; .NET4.0E) GoogleToolbarFF 7.0.20100326 GTBA
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: ja-JP,ja;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 115
+Connection: keep-alive
+Cookie: PREF=ID=8a621937606837d7:U=64b07bb9dec885b4:TM=1272224004:LM=1284005839:DV=8WDcP-N8LasL:S=nUaausKWEKb-QYiK; NID=34=mZtwDpfMWJRlbXDFEBPkLnicpDOjagrXcc5waoB7m0onH_BSaUA2soJXvPcojtxUrKB--LIfCOkrhhvnvYg_v9BOxRZcKZgjuRly3JqZcTQmVR88rXRWd3O1DvXwoebF; SID=DQAAAI4AAADOPVT7e5ddG1MrdSiMaPzOFpwAYIRRXnUZXBCTogY90R45iZF6y5CYmuHZYJc8sMIjwOavmP_P1lmh8bZOu1S34SiNv5eIrIz4eEMlPFW-2Wpj5AwuF0rvfYeE5t9pHqwVsnQbJ-G3kDwH8XOPx9e8uIolDIirhRBqu2Wb8TSQD4n3RvG1YSaSZwhn9Vieg7E; HSID=AAIyTcJqheA_flsMV
+
+HTTP/1.1 200 OK
+Date: Sat, 11 Sep 2010 19:52:42 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Content-Type: text/html; charset=Shift_JIS
+Content-Encoding: gzip
+Server: gws
+Content-Length: 645
+X-XSS-Protection: 1; mode=block
+----------------------------------------------------------
+http://www.dmm.com/remotepage/-/navi/=/loginoutpath=aHR0cDovL2F1Y3Rpb24uZG1tLmNvbS8=/channel=auction/link=_parent/_jloff=1/page=/
+
+GET /remotepage/-/navi/=/loginoutpath=aHR0cDovL2F1Y3Rpb24uZG1tLmNvbS8=/channel=auction/link=_parent/_jloff=1/page=/ HTTP/1.1
+Host: www.dmm.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; ja-JP; rv:1.9.2) Gecko/20100206 Palemoon/3.6.0.5 GTB7.0 ( .NET CLR 3.5.30729; .NET4.0E)
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: ja-JP,ja;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 115
+Connection: keep-alive
+Referer: http://auction.dmm.com/
+Cookie: check_open_login=1; INT_SESID=Ag4EXBkVDwReRjZ7IhoIFV9WVgMTLX8ATmtbCyJ3dncidXZQKS9BDyUlInM1GggVX1FYG2I3dTZjEA5aWQcFClcGA1JVUwwMF15TCEQaCCheF1gAC0F9KmNtZnYwf3MQWFUKXlgdRg1VVVkQAk1DCgwHA01YDFpGDEEPA1kUFQkQDgNcQDN8c0ZfEAhXAQlEC1wjeHAmdSVxBH56Fw52cyJ1Y0RZFQ8OXkYOVwtaVhQ6DQYbChAOVQUIF3dSBgdWEQZdEFcEQxVfF1kHXBpXBDoNBhsKEA5VDRAGEVhFDQpZFlwHERJbVgkBQQkVAgdcR9WUg9tBDxcNCw8RBV9FQRdaUQsHRA5EXlBZEKHW%2BrFHXxEDAFsORkRTWEMPU2hXDVVSCgc5U1sFA0EJBAICXRZeUwwLQVUDUm1URxdTREYCQFkJDEQOVV5UWE8b; licenseUID=n8AAAEAAF6KIt8AAAAS; check_done_login=1
+
+HTTP/1.1 200 OK
+Date: Sat, 11 Sep 2010 19:52:41 GMT
+Server: Apache
+Set-Cookie: check_open_login=1; path=/; domain=.dmm.com
+Vary: Accept-Encoding,User-Agent
+Content-Encoding: gzip
+Content-Length: 6066
+Connection: close
+Content-Type: text/html
+----------------------------------------------------------
+http://www.dmm.com/remotepage/-/navi/=/loginoutpath=aHR0cDovL2F1Y3Rpb24uZG1tLmNvbS8=/link=_parent/_jloff=1/page=footer/
+
+GET /remotepage/-/navi/=/loginoutpath=aHR0cDovL2F1Y3Rpb24uZG1tLmNvbS8=/link=_parent/_jloff=1/page=footer/ HTTP/1.1
+Host: www.dmm.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; ja-JP; rv:1.9.2) Gecko/20100206 Palemoon/3.6.0.5 GTB7.0 ( .NET CLR 3.5.30729; .NET4.0E)
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: ja-JP,ja;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 115
+Connection: keep-alive
+Referer: http://auction.dmm.com/
+Cookie: check_open_login=1; INT_SESID=Ag4EXBkVDwReRjZ7IhoIFV9WVgMTLX8ATmtbCyJ3dncidXZQKS9BDyUlInM1GggVX1FYG2I3dTZjEA5aWQcFClcGA1JVUwwMF15TCEQaCCheF1gAC0F9KmNtZnYwf3MQWFUKXlgdRg1VVVkQAk1DCgwHA01YDFpGDEEPA1kUFQkQDgNcQDN8c0ZfEAhXAQlEC1wjeHAmdSVxBH56Fw52cyJ1Y0RZFQ8OXkYOVwtaVhQ6DQYbChAOVQUIF3dSBgdWEQZdEFcEQxVfF1kHXBpXBDoNBhsKEA5VDRAGEVhFDQpZFlwHERJbVgkBQQkVAgdcR9WUg9tBDxcNCw8RBV9FQRdaUQsHRA5EXlBZEKHW%2BrFHXxEDAFsORkRTWEMPU2hXDVVSCgc5U1sFA0EJBAICXRZeUwwLQVUDUm1URxdTREYCQFkJDEQOVV5UWE8b; licenseUID=n8AAAEAAF6KIt8AAAAS; check_done_login=1
+
+HTTP/1.1 200 OK
+Date: Sat, 11 Sep 2010 19:52:41 GMT
+Server: Apache
+Set-Cookie: check_open_login=1; path=/; domain=.dmm.com
+Vary: Accept-Encoding,User-Agent
+Content-Encoding: gzip
+Content-Length: 5301
+Connection: close
+Content-Type: text/html
+----------------------------------------------------------
+http://www.google-analytics.com/__utm.gif?utmwv=4.7.2&utmn=494007932&utmhn=auction.dmm.com&utmcs=EUC-JP&utmsr=1680x1050&utmsc=24-bit&utmul=ja-jp&utmje=1&utmfl=10.1%20r53&utmdt=DMM.com%20%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%AA%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3&utmhid=1836454497&utmr=-&utmp=%2F&utmac=UA-31336-1&utmcc=__utma%3D225231877.1408897738.1284234762.1284234762.1284234762.1%3B%2B__utmz%3D225231877.1284234762.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B
+
+GET /__utm.gif?utmwv=4.7.2&utmn=494007932&utmhn=auction.dmm.com&utmcs=EUC-JP&utmsr=1680x1050&utmsc=24-bit&utmul=ja-jp&utmje=1&utmfl=10.1%20r53&utmdt=DMM.com%20%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%AA%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3&utmhid=1836454497&utmr=-&utmp=%2F&utmac=UA-31336-1&utmcc=__utma%3D225231877.1408897738.1284234762.1284234762.1284234762.1%3B%2B__utmz%3D225231877.1284234762.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B HTTP/1.1
+Host: www.google-analytics.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; ja-JP; rv:1.9.2) Gecko/20100206 Palemoon/3.6.0.5 GTB7.0 ( .NET CLR 3.5.30729; .NET4.0E) GTBA
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: ja-JP,ja;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 115
+Connection: keep-alive
+Referer: http://auction.dmm.com/
+
+HTTP/1.1 200 OK
+Date: Sat, 11 Sep 2010 19:41:50 GMT
+Content-Length: 35
+Pragma: no-cache
+Expires: Wed, 19 Apr 2000 11:43:00 GMT
+Last-Modified: Wed, 21 Jan 2004 19:51:30 GMT
+Content-Type: image/gif
+Server: Golfe
+Cache-Control: private, no-cache, no-cache=Set-Cookie, proxy-revalidate
+----------------------------------------------------------
+http://subauction.dmm.com/GetAuctionStatus.php?AuctionID=26582|26709|26316|26110|26716|26401|26564|26662|26705|26554|26449|26698|26683|26707|26712|26497|26718|26719|26720|26721|26723|26724|26725|26727|26729|&jsonp=jQuery.jsonp.fn1284234762208
+
+GET /GetAuctionStatus.php?AuctionID=26582|26709|26316|26110|26716|26401|26564|26662|26705|26554|26449|26698|26683|26707|26712|26497|26718|26719|26720|26721|26723|26724|26725|26727|26729|&jsonp=jQuery.jsonp.fn1284234762208 HTTP/1.1
+Host: subauction.dmm.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; ja-JP; rv:1.9.2) Gecko/20100206 Palemoon/3.6.0.5 GTB7.0 ( .NET CLR 3.5.30729; .NET4.0E)
+Accept: */*
+Accept-Language: ja-JP,ja;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 115
+Connection: keep-alive
+Referer: http://auction.dmm.com/
+Cookie: check_open_login=1; INT_SESID=Ag4EXBkVDwReRjZ7IhoIFV9WVgMTLX8ATmtbCyJ3dncidXZQKS9BDyUlInM1GggVX1FYG2I3dTZjEA5aWQcFClcGA1JVUwwMF15TCEQaCCheF1gAC0F9KmNtZnYwf3MQWFUKXlgdRg1VVVkQAk1DCgwHA01YDFpGDEEPA1kUFQkQDgNcQDN8c0ZfEAhXAQlEC1wjeHAmdSVxBH56Fw52cyJ1Y0RZFQ8OXkYOVwtaVhQ6DQYbChAOVQUIF3dSBgdWEQZdEFcEQxVfF1kHXBpXBDoNBhsKEA5VDRAGEVhFDQpZFlwHERJbVgkBQQkVAgdcR9WUg9tBDxcNCw8RBV9FQRdaUQsHRA5EXlBZEKHW%2BrFHXxEDAFsORkRTWEMPU2hXDVVSCgc5U1sFA0EJBAICXRZeUwwLQVUDUm1URxdTREYCQFkJDEQOVV5UWE8b; licenseUID=n8AAAEAAF6KIt8AAAAS; check_done_login=1; __utma=225231877.1408897738.1284234762.1284234762.1284234762.1; __utmb=225231877.1.10.1284234762; __utmc=225231877; __utmz=225231877.1284234762.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+
+HTTP/1.1 200 OK
+Date: Sat, 11 Sep 2010 19:52:42 GMT
+Server: Apache
+X-Powered-By: PHP/5.3.2
+Cache-Control: no-cache
+Pragma: no-cache
+Vary: Accept-Encoding,User-Agent
+Content-Encoding: gzip
+Content-Length: 1306
+Keep-Alive: timeout=1, max=100
+Connection: Keep-Alive
+Content-Type: application/json
+----------------------------------------------------------
+http://subauction.dmm.com/GetAuctionStatus.php?AuctionID=26582|26709|26316|26110|26716|26401|26564|26662|26705|26554|26449|26698|26683|26707|26712|26497|26718|26719|26720|26721|26723|26724|26725|26727|26729|&jsonp=jQuery.jsonp.fn1284234764631
+
+GET /GetAuctionStatus.php?AuctionID=26582|26709|26316|26110|26716|26401|26564|26662|26705|26554|26449|26698|26683|26707|26712|26497|26718|26719|26720|26721|26723|26724|26725|26727|26729|&jsonp=jQuery.jsonp.fn1284234764631 HTTP/1.1
+Host: subauction.dmm.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; ja-JP; rv:1.9.2) Gecko/20100206 Palemoon/3.6.0.5 GTB7.0 ( .NET CLR 3.5.30729; .NET4.0E)
+Accept: */*
+Accept-Language: ja-JP,ja;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 115
+Connection: keep-alive
+Referer: http://auction.dmm.com/
+Cookie: check_open_login=1; INT_SESID=Ag4EXBkVDwReRjZ7IhoIFV9WVgMTLX8ATmtbCyJ3dncidXZQKS9BDyUlInM1GggVX1FYG2I3dTZjEA5aWQcFClcGA1JVUwwMF15TCEQaCCheF1gAC0F9KmNtZnYwf3MQWFUKXlgdRg1VVVkQAk1DCgwHA01YDFpGDEEPA1kUFQkQDgNcQDN8c0ZfEAhXAQlEC1wjeHAmdSVxBH56Fw52cyJ1Y0RZFQ8OXkYOVwtaVhQ6DQYbChAOVQUIF3dSBgdWEQZdEFcEQxVfF1kHXBpXBDoNBhsKEA5VDRAGEVhFDQpZFlwHERJbVgkBQQkVAgdcR9WUg9tBDxcNCw8RBV9FQRdaUQsHRA5EXlBZEKHW%2BrFHXxEDAFsORkRTWEMPU2hXDVVSCgc5U1sFA0EJBAICXRZeUwwLQVUDUm1URxdTREYCQFkJDEQOVV5UWE8b; licenseUID=n8AAAEAAF6KIt8AAAAS; check_done_login=1; __utma=225231877.1408897738.1284234762.1284234762.1284234762.1; __utmb=225231877.1.10.1284234762; __utmc=225231877; __utmz=225231877.1284234762.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+
+HTTP/1.1 200 OK
+Date: Sat, 11 Sep 2010 19:52:45 GMT
+Server: Apache
+X-Powered-By: PHP/5.3.2
+Cache-Control: no-cache
+Pragma: no-cache
+Vary: Accept-Encoding,User-Agent
+Content-Encoding: gzip
+Content-Length: 1305
+Keep-Alive: timeout=1, max=100
+Connection: Keep-Alive
+Content-Type: application/json
+----------------------------------------------------------

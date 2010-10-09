@@ -1,0 +1,11 @@
+GET /remotepage/-/navi/=/loginoutpath=aHR0cDovL2F1Y3Rpb24uZG1tLmNvbS8=/link=_parent/_jloff=1/page=footer/ HTTP/1.1
+Host: www.dmm.com
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.127 Safari/533.4
+Referer: http://auction.dmm.com/
+Accept: application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: ja,en-US;q=0.8,en;q=0.6
+Accept-Charset: Shift_JIS,utf-8;q=0.7,*;q=0.3
+Cookie: back_url=%3D%2Fpath%3D; __utmz=225231877.1283865949.24.6.utmcsr=dmm.com|utmccn=(referral)|utmcmd=referral|utmcct=/remotepage/-/navi/=/loginoutpath=aHR0cDovL2F1Y3Rpb24uZG1tLmNvbS8=/channel=auction/link=_parent/_jloff=1/page=/; BASKET_Cookie=payment%3D%26payment_id%3D%26money%3D%26ref_url%3D%26ref_id%3D%26regist%3D; __utma=225231877.1909078138.1283274572.1283912214.1283942358.29; __utmc=225231877; __utmv=225231877.Member; __utmb=225231877.3.10.1283942358; INT_SESID=Ag4EXBkVDwReRjZ7IhoIFV9WVgMTOgAibkQDRDJ3eEEidXUKDQFWfiUlInMeGggVX1FYG2I3dTZjEA5aWQcFClANBFVWXgIMF15TCEQaCCheF1gAC0F9KmNtZnYwf3MQWFUKXlgdRg1VVVkQAk1DCgwHA01YDFpGDEEPA1kUFQkQDgNcQDN8c0ZfEAhXAQlEUxMzeH4QdSVyXlpUAH92cyJ1SERZFQ8OXkYOVwtaVhQ6DQYbChAOVQUIF3dSBgdWEQZdEFcEQxVfF1kHXBpXBDoNBhsKEA5VDRAGEVhFDQpZFlwHERJbVgkBQQkVAgdcR9WUg9tBDxcNCw8RBV9FQRdaUQsHRA5EXlBZEKHW%2BrFHXxEDAFsORkRTWEMPU2hXDVVSCgc5U1sFA0EJBAICXRZeUwwLQVUDUm1URxdTREYCQFkJD@l
+EQOVV5UWE8b; licenseUID=6wQAOsAAElogcIAAAAx; check_done_login=1; check_open_login=1
